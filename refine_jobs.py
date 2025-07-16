@@ -76,16 +76,3 @@ Job Description:
         return refined_jobs
 
 
-if __name__ == "__main__":
-
-    refine_obj = RefineJobs()
-    parser = ResumeParser()
-    resume_text = parser.load_document("Sasank_IIT_TIRUPATI.pdf")
-
-    with open("refined_results3.json", mode="r") as file:
-        jobs = json.load(file)
-    
-    ref_jobs = refine_obj.refine_jobs(resume_text=resume_text, jobs=jobs[:2])
-
-    for job in ref_jobs:
-        print(job["Explanation"])
