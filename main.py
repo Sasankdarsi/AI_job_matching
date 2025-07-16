@@ -59,8 +59,8 @@ async def match_jobs(
         resume_text = parser.load_document(tmp_path)
         refined  = refiner.refine_jobs(resume_text, matches)
 
-        with open('refined_results3.json', mode='w') as file:
-            json.dump(refined, file, indent=4)
+        # with open('refined_results3.json', mode='w') as file:
+        #     json.dump(refined, file, indent=4)
 
 
         return {"results": refined}
