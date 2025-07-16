@@ -72,6 +72,7 @@ Job Description:
                 refined_jobs.append(job)
             except Exception as e:
                 print(f"Error refining job '{job.get('title')}': {e}")
+                break
 
         return refined_jobs
 
