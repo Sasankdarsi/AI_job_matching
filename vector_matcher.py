@@ -71,15 +71,12 @@ class MatchingSystem:
         # # Save to disk
         # self.jobs_db.save_local(jobs_path)
         print(f"Jobs processed and embeddings generated")
-        return self.jobs_db
         
     def load_databases(self, 
-                      resume_embed: str, 
-                      jobs_embed: str):
+                      resume_embed: str):
         
         # Load resume database if it exists
         self.resume_db = resume_embed
-        self.jobs_db = jobs_embed
 
         print("Resume and Job embeddings are loaded")
 

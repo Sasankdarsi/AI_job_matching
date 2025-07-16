@@ -50,8 +50,8 @@ async def match_jobs(
 
         # Matching resume to jobs
         matcher = MatchingSystem()
-        jobs_embed = matcher.process_jobs(jobs)        
-        matcher.load_databases(resume_embed=resume_embed, jobs_embed=jobs_embed)          
+        matcher.process_jobs(jobs)        
+        matcher.load_databases(resume_embed=resume_embed)          
         matches = matcher.match_resume_to_jobs(top_n=top_n)
 
         # Further refining the jobs
