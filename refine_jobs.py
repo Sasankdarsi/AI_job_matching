@@ -2,7 +2,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
 from langchain.output_parsers import PydanticOutputParser
 from typing import List, Dict
-from resume_parser import ResumeParser
 from models import RefinedJobs
 import json
 

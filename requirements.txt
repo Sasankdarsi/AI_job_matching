@@ -1,4 +1,38 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# LangChain Core
+langchain
+langchain-community
+langchain-core
+langchain-google-genai
+
+# Vector DB
+faiss-cpu
+
+# Google Generative AI
+google-generativeai
+
+# Frontend
 streamlit
+
+# Parsing and file handling
+pdfplumber
+pypdf
+unstructured
+python-multipart
+
+# Dev tools & utils
+python-dotenv
+httpx
 requests
+tqdm
+pandas
+numpy
+pydantic>=2.0
+pydantic-core>=2.14.6
+typing-extensions
 
-
+# Deployment server for FastAPI
+gunicorn

@@ -1,7 +1,4 @@
 import requests
-import time
-import random
-import json
 from urllib.parse import quote
 from dotenv import load_dotenv
 import os
