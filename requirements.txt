@@ -16,6 +16,8 @@ google-generativeai
 
 # Frontend
 streamlit
+iso3166
+
 
 # Parsing and file handling
 pdfplumber
