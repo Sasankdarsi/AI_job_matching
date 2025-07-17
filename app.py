@@ -14,7 +14,7 @@ st.set_page_config(
 )
 
 # Backend configuration
-BACKEND_URL = "http://localhost:8000"  
+BACKEND_URL = "https://ai-job-matching-po0x.onrender.com"  
 
 
 st.markdown("""
